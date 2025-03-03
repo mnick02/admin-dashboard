@@ -6,12 +6,57 @@
 
 .container div {
     padding: 15px;
-    font-size: 32px;
+    font-size: 15px;
 }
 
 .header {
     background-color: red;
     grid-column: 2;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.searchbar input[type="search"] {
+    background-color: #FFFFFF;
+    border: 4px solid #0381fe;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.searchbar {
+    justify-self: start;
+    align-self: start;
+}
+
+.btm-btns {
+    justify-self: center;
+    align-self: center;
+}
+
+.name-txt {
+    justify-self: start;
+    align-self: center;
+}
+
+.top-right {
+    align-self: center;
+}
+
+.top-right ul {
+    gap: 5px;
+    
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.bottom {
+    grid-column: 1 / span 2;
 }
 
 .sidebar {
