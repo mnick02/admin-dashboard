@@ -82,6 +82,14 @@
 .main-content {
     background-color: green;
     grid-column: 2;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.main-content .card {
+    background-color: white;
 }
 
 
