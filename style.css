@@ -13,11 +13,13 @@
 
 .header {
     background-color: #ffffff;
+    border: 1px solid black;
     grid-column: 2;
 
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    /*change sizes? change item pos?*/
 }
 
 .searchbar input[type="search"] {
@@ -41,26 +43,32 @@
     margin-right: 15px;
 }
 
-.bottom-right{
+.bottom-left{
     display: flex;
+    align-items: center;
 }
 
-.bottom-right .moogle {
+.bottom-left .moogle {
     width: 55px;
     height: 55px;
     border-radius: 50%;
 }
-
 
 .btm-btns {
     justify-self: center;
     align-self: center;
 }
 
-.name-txt {
-    justify-self: start;
-    align-self: center;
+
+.name-txt::first-line {
+    font-size: 0.8rem;
 }
+
+.name-txt .name {
+    font-size: 1.5rem;
+}
+
+
 
 .top-right {
     align-self: center;
@@ -111,6 +119,8 @@
 .main-content .card {
     background-color: white;
 }
+
+
 
 
 
