@@ -29,8 +29,17 @@
 
 .searchbar {
     justify-self: start;
-    align-self: start;
+    align-self: center;
+    display: flex;
 }
+
+.searchbar .search-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
 
 .btm-btns {
     justify-self: center;
