@@ -10,7 +10,7 @@
 }
 
 .header {
-    background-color: red;
+    background-color: #ffffff;
     grid-column: 2;
 
     display: grid;
@@ -19,12 +19,12 @@
 }
 
 .searchbar input[type="search"] {
-    background-color: #FFFFFF;
-    border: 4px solid #0381fe;
-    border-radius: 3px;
-    width: 100%;
+    background-color: rgba(226,232,240,255);
+    border: none;
+    border-radius: 15px;
+    width: 500px;
     padding: 7px;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .searchbar {
@@ -36,7 +36,7 @@
 .searchbar .search-icon {
     width: 20px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 
