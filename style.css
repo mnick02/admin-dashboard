@@ -59,7 +59,6 @@
     align-self: center;
 }
 
-
 .name-txt::first-line {
     font-size: 0.8rem;
 }
@@ -72,15 +71,32 @@
 
 .top-right {
     align-self: center;
+    justify-self: end;
 }
 
 .top-right ul {
-    gap: 5px;
+    gap: 10px;
+    align-items: center;
     
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     
+}
+
+.top-right li {
+    list-style: none;
+}
+
+.top-right .bell-icon {
+    width: 20px;
+    height: auto;
+}
+
+.top-right .moogle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .bottom {
