@@ -1,4 +1,8 @@
-
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
 
 .container {
     display: grid;
@@ -58,6 +62,30 @@
 .btm-btns {
     justify-self: end;
     align-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    
+}
+
+.btn {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #1992d4;
+
+    border: none;
+    border-radius: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1ca1e9;
+}
+
+.btn:active {
+    background-color: #146a98;
 }
 
 .name-txt::first-line {
