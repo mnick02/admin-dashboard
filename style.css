@@ -134,7 +134,8 @@
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: #1992d4;
+    color: white;
     grid-column: 1;
     grid-row: 1 / 3;
 
@@ -144,7 +145,11 @@
 
 .dashboard {
     justify-self: start;
-    align-self: center;
+    align-self: start;
+}
+
+.sidebar .dashboard {
+    font-size: 1.5rem;
 }
 
 .sidebar ul {
