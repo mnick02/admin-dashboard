@@ -25,6 +25,14 @@
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     /*change sizes? change item pos?*/
+
+    div {
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+   
 }
 
 .searchbar input[type="search"] {
@@ -51,7 +59,7 @@
 .bottom-left{
     display: flex;
     align-items: center;
-    gap: 4px;
+   
 }
 
 .bottom-left .moogle {
@@ -100,17 +108,20 @@
 
 
 .top-right {
-    align-self: center;
     justify-self: end;
+    align-self: center;
 }
 
 .top-right ul {
+    padding: 0;
+    margin: 0;
     gap: 10px;
     align-items: center;
-    
+   
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
     
 }
 
@@ -141,7 +152,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 5fr;
+    grid-template-rows: 0.5fr 2fr 3fr;
 }
 
 .dashboard {
@@ -170,6 +181,14 @@
         display: flex;
         gap: 10px;
     }
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 20px;
 }
 
 .icon {
