@@ -232,6 +232,11 @@ a {
     grid-template-columns: 1fr;
    
     padding: 0;
+
+    .texty {
+        align-self: end;
+        margin-bottom: 5px;
+    }
 }
 .main-content .small-card {
     /*grid-column: 3 / 4;
@@ -249,7 +254,9 @@ a {
     background-color: white;
     border-radius: 10px;
     width: 250px;
-    height: 270px;
+    height: 300px;
+
+    align-self: end;
 }
 
 .main-content .texty {
@@ -259,13 +266,13 @@ a {
 
     margin-bottom: 0;
     padding-bottom: 0;
+    padding-left: 0;
 
     .announcements {
         float: right;
     }
+
 }
-
-
 
 
 .title {
