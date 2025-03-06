@@ -313,3 +313,8 @@ a {
     align-items: center;
     gap: 15px;
 }
+
+.description {
+    color: #7b7b7b;
+}
+
