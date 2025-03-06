@@ -329,6 +329,10 @@ a {
     display: flex;
     align-items: center;
     gap: 15px;
+
+    span {
+        font-size: 0.84rem;
+    }
 }
 
 .description {
