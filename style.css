@@ -207,7 +207,7 @@ a {
 }
 
 .main-content {
-    background-color: green;
+    background-color: #e2e8f0;
     grid-column: 2;
 
     display: grid;
