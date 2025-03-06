@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }*/
 
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+* {
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 5fr;
@@ -58,7 +72,7 @@
 .bottom-left{
     display: flex;
     align-items: center;
-   
+    font-weight: bold;
 }
 
 .bottom-left .moogle {
