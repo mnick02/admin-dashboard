@@ -224,6 +224,21 @@ a {
     height: 200px;
 }
 
+.main-content .texty {
+    grid-column: 1 / 4;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    .announcements {
+        float: right;
+    }
+}
+
+
+
 
 .title {
     font-size: 1.2rem;
