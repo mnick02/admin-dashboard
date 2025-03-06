@@ -302,4 +302,14 @@ a {
 }
 
 
+.small-card2 .moogle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
+.c-profiles {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
