@@ -217,6 +217,10 @@ a {
 
 .main-content .card {
     background-color: white;
+    border-radius: 10px;
+
+    width: 300px;
+    height: 200px;
 }
 
 
