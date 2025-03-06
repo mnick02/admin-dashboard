@@ -249,6 +249,9 @@ a {
     height: 290px;
     box-shadow: 0px 5px 4px rgb(220, 220, 220);
 
+    .a-text:last-child{
+        border-bottom: none;
+    }
 }
 
 .main-content .small-card2 {
