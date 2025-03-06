@@ -224,6 +224,34 @@ a {
     height: 200px;
 }
 
+.main-content .newcard {
+    grid-column: 3/ 4;
+    grid-row: 2 / 5;
+
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    padding: 0;
+}
+.main-content .small-card {
+    /*grid-column: 3 / 4;
+    grid-row: 2 / 4;*/
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 290px;
+
+}
+
+.main-content .small-card2 {
+    /*grid-column: 3 / 4;
+    grid-row: 4 / 5;*/
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 270px;
+}
+
 .main-content .texty {
     grid-column: 1 / 4;
     font-weight: bold;
