@@ -318,3 +318,12 @@ a {
     color: #7b7b7b;
 }
 
+.card .card-icons{
+    float: right;
+
+    .icon {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
