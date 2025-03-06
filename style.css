@@ -236,6 +236,7 @@ a {
 
     .texty {
         align-self: end;
+        justify-self: end;
         margin-bottom: 5px;
     }
 }
